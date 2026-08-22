@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eklavya | Connect</title>
+    <style>
+        /* Base Styles & Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0f172a; /* Sleek dark esports background */
+            color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 480px;
+            text-align: center;
+        }
+
+        /* Profile Section */
+        .profile {
+            margin-bottom: 30px;
+        }
+
+        .profile img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #38bdf8; /* Neon blue accent border */
+            box-shadow: 0 0 15px rgba(56, 189, 248, 0.5);
+            margin-bottom: 15px;
+        }
+
+        .profile h1 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        /* Link Buttons */
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .link-btn {
+            display: block;
+            width: 100%;
+            padding: 16px;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #1e293b;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 1px solid #334155;
+        }
+
+        /* Hover Effects & Brand Colors */
+        .link-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .whatsapp:hover { background-color: #25D366; border-color: #25D366; }
+        .linkedin:hover { background-color: #0077b5; border-color: #0077b5; }
+        .youtube:hover { background-color: #FF0000; border-color: #FF0000; }
+        .facebook:hover { background-color: #1877F2; border-color: #1877F2; }
+        .instagram:hover { 
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+            border-color: transparent;
+        }
+
+        /* Footer Section */
+        .footer {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #334155;
+            color: #94a3b8;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .footer p {
+            margin-bottom: 5px;
+        }
+        
+        .highlight {
+            color: #38bdf8;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Profile Header -->
+        <div class="profile">
+            <img src="YOUR_LOGO_IMAGE_URL_HERE.jpg" alt="Eklavya Logo">
+            <h1>Eklavya</h1>
+        </div>
+
+        <!-- Links Section -->
+        <div class="links-container">
+            <a href="https://wa.me/YOUR_NUMBER_HERE" target="_blank" class="link-btn whatsapp">📱 WhatsApp</a>
+            <a href="#" target="_blank" class="link-btn linkedin">💼 LinkedIn</a>
+            <a href="#" target="_blank" class="link-btn youtube">▶️ YouTube</a>
+            <a href="#" target="_blank" class="link-btn facebook">📘 Facebook</a>
+            <a href="#" target="_blank" class="link-btn instagram">📸 Instagram</a>
+        </div>
+
+        <!-- Footer / Contact Info -->
+        <div class="footer">
+            <p>For inquiries, please contact below:</p>
+            <p class="highlight">Contact for Production</p>
+            <p class="highlight">Contact for Free Fire Female Caster</p>
+        </div>
+    </div>
+
+</body>
+</html>
